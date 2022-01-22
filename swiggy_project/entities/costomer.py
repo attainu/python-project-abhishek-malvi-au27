@@ -49,7 +49,7 @@ class Customer:
             print(i)
         ch = input("Select a restaurant(type it's name):")
 
-        if ch == "Archana Grand" or ch == "Tharavadu" or ch== "Gun Powder":
+        if ch == "Sarkar" or ch == "Icon" or ch== "Sayaji":
            
             print("Menu:")
             print({k: v for k, v in sorted(resto.reg_dic[ch][0].items(), key=lambda item: item[1])})
@@ -65,3 +65,6 @@ class Customer:
            
         else:
             print("give correct option")
+
+
+    
