@@ -4,9 +4,9 @@
 class Resturant:
     def __init__(self) -> None:
 
-        self.reg_dic ={"Archana Grand":[{"Biryani":300,"Matonsoup":150,"Roti":20,"Chikansoup":100,"Raita":80},3],
-                        "Tharavadu":[{"Veg-Biryani":300,"Mix-Veg":100,"Roti":20,"Kaju_kari":150,"DalFry":100},3],
-                        "Gun Powder":[{"Biryani":300,"Raita":100,"Roti":20,"Rice":90,"Chikansoup":120},3]
+        self.reg_dic ={"Sarkar":[{"Biryani":300,"Matonsoup":150,"Roti":20,"Chikansoup":100,"Raita":80},3],
+                        "Icon":[{"Veg-Biryani":300,"Mix-Veg":100,"Roti":20,"Kaju_kari":150,"DalFry":100},3],
+                        "Sayaji":[{"Biryani":300,"Raita":100,"Roti":20,"Rice":90,"Chikansoup":120},3]
                        }
 
         
@@ -101,4 +101,10 @@ class Resturant:
 
                 self.reg_dic[rname][0][item] = price
                 print(self.reg_dic[rname][0])
-           
+
+
+
+    
+            
+
+   
